@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADCD6D6"
+    tools:context=".register">
+
+    <Button
+        android:id="@+id/as_patient"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="422dp"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="As a Patient"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/as_doctor" />
+
+    <TextView
+        android:id="@+id/regihead"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="1dp"
+        android:background="#CDC8C8"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/as_doctor"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="As a Doctor"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regihead" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

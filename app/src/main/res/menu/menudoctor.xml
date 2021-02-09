@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group">
+        <item
+            android:id="@+id/doc_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/login_for_pat"
+            android:title="Patient_Login"
+            android:icon="@drawable/ic_login_for_pat_in_doctor"/>
+
+        <item
+            android:id="@+id/upload_post_for_p"
+            android:title="Upload Post"
+            android:icon="@drawable/ic_new_notification"/>
+        <item
+            android:id="@+id/document_store"
+            android:icon="@drawable/ic_docs"
+            android:title="MyDraft" />
+        <item
+            android:id="@+id/nav_logout_doctor"
+            android:title="Logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_menu_share"/>
+            <item android:id="@+id/nav_send"
+                android:title="Send"
+                android:icon="@drawable/ic_menu_send"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctorpatientapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".postview"></activity>
+
+        <activity android:name=".postUploader" />
+        <activity android:name=".document_view_for_p_single" />
+        <activity android:name=".document_view_for_p" />
+        <activity android:name=".doct_choose_doc_for_p" />
+        <activity android:name=".Secretcodegenerator" />
+        <activity android:name=".patient_login_for_doctor" />
+        <activity android:name=".Doctor_profile_view" />
+        <activity android:name=".my_draft_for_patient" />
+        <activity android:name=".ViewDraft" />
+        <activity android:name=".single_document_view" />
+        <activity android:name=".Patient_profile_view" />
+        <activity android:name=".DoctorHomePage" />
+        <activity android:name=".PatientHomePage" />
+        <activity android:name=".OtpVerification" />
+        <activity android:name=".Doctor_reg_page" />
+        <activity android:name=".Patient_reg_page" />
+        <activity android:name=".register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

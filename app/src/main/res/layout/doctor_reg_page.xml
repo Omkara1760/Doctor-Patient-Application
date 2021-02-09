@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF58F"
+    tools:context=".Doctor_reg_page">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/regpag"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/mesgshape3"
+            android:gravity="center"
+            android:text="Registration Of Doctor"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Docotor_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="FullName"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regpag" />
+
+
+        <EditText
+            android:id="@+id/Doctor_dob"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="DOB"
+            android:inputType="date"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/State" />
+
+        <EditText
+            android:id="@+id/Doctor_licence_number"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="License Number"
+            android:inputType="number"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Contact" />
+
+        <EditText
+            android:id="@+id/Doctor_clinic_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Clinic Name"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doctlicenseno" />
+
+        <EditText
+            android:id="@+id/Doctor_Taluka"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Taluka"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgname" />
+        <EditText
+            android:id="@+id/Doctor_Dist"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="District"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Taluka" />
+
+        <EditText
+            android:id="@+id/Doctor_state"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="State"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Dist" />
+
+        <EditText
+            android:id="@+id/Doctor_email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/buttonshape3"
+            android:gravity="center"
+            android:hint="Email"
+            android:textColorHint="#000000" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/doctor_profile_image"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_upload_profile_with_black_box_man"/>
+
+
+
+
+        <Button
+            android:id="@+id/submit_doctor_reg_pag"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/buttonshape2"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:text="SUBMIT"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

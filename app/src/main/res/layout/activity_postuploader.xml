@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF6EE"
+    tools:context=".postUploader">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView_camera"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/button_gallary"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#0B0A0A"
+                android:onClick="button_gallary"
+                android:text="@string/choose_post_from_gallary" />
+
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10sp"
+
+                android:background="#FDFCFC"
+                android:gravity="center"
+                android:hint="@string/Enter_discription_here"
+                android:inputType="textMultiLine"
+                android:textColor="#0C0C0C"
+                android:textColorHint="#0A0B0B"
+                android:textSize="20sp"
+                tools:ignore="Autofill" />
+
+
+            <Button
+                android:id="@+id/button_upload"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#090909"
+                android:onClick="button_upload"
+                android:text="@string/Send" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

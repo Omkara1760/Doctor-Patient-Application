@@ -1,0 +1,122 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Doctor_profile_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCFB6F"
+        android:orientation="vertical"
+        android:scrollbars="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewd"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            app:civ_border_color="#AABBCC"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/Name_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+
+            android:textColor="#0B0A0A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/email_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/clinic_name_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/licence_numb_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/dob_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/taluka_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/district_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/state_d"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonviewforprofileview"
+
+            android:textColor="#0B0A0A"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
