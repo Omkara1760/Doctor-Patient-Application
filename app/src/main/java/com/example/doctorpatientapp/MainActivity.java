@@ -1,3 +1,4 @@
+//This is our main class
 package com.example.doctorpatientapp;
 
 import android.content.Intent;
