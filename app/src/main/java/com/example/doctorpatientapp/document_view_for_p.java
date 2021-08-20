@@ -87,26 +87,7 @@ public class document_view_for_p extends AppCompatActivity {
 
     }
 
-//    public void add__button_method(View view) {
-//        startActivity(new Intent(this, my_draft_for_patient.class));
-//        finishAfterTransition();
-//    }
 
-
-//    public class ViewHolder extends RecyclerView.ViewHolder {
-//        public LinearLayout root;
-//        public TextView description;
-
-//        public ViewHolder(View itemView) {
-//            super(itemView);
-//            root = itemView.findViewById(R.id.list_root);
-//            description = itemView.findViewById(R.id.description_recyclerview);
-//        }
-
-//        public void setdescription(String string) {
-//            description.setText(string);
-//        }
-//}
     private void fetch() {
         FirebaseUser firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
         Query query = FirebaseDatabase.getInstance().getReference(firebaseUser.getPhoneNumber()).child("MyDocuments");
