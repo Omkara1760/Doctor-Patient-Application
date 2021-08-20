@@ -83,8 +83,6 @@ public class document_view_for_p extends AppCompatActivity {
 
             }
         });
-
-
     }
 
 
@@ -135,7 +133,6 @@ public class document_view_for_p extends AppCompatActivity {
                     }
                 });
             }
-
         };
         recyclerView.setAdapter(adapter);
     }
